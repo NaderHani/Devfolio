@@ -1,0 +1,349 @@
+:root{
+    --main-font:"Roboto";
+    --main-color:#0078FF;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../webfonts/Roboto-Regular.ttf);
+}
+/* ----------global---------- */
+p{
+    font-family: var(--main-font);
+}
+a{
+    text-decoration: none;
+}
+.w-15{
+    width: 15%;
+}
+/* -------------------------- */
+nav{
+    background-color:rgba(0, 0, 0, 0.718);
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.408),rgba(0, 0, 0, 0.408)), url(../images/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header .col-lg h1{
+    font-family: var(--main-font);
+    font-size: 4.75rem;
+}
+header .col-lg p span{
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+header .col-lg p span::after{
+    content: "|";
+    animation: typing 15s infinite;
+}
+@keyframes typing {
+    0%{ content:"|";}
+    1%{ content:"Des|";}
+    2%{ content:"Desg|";}
+    3%{ content:"Desgi|";}
+    4%{ content:"Desgin|";}
+    5%{ content:"Desgine|";}
+    6%{ content:"Desginer|";}
+    7%{ content:"Desgine|";}
+    8%{ content:"Desgin|";}
+    9%{ content:"Desgi|";}
+    10%{ content:"Desg|";}
+    11%{ content:"Des|";}
+    12%{ content:"De|";}
+    13%{ content:"De";}
+    14%{ content:"De|";}
+    15%{ content:"De";}
+    16%{ content:"De|";}
+    17%{ content:"Dev|";}
+    18%{ content:"Deve|";}
+    19%{ content:"Devel|";}
+    20%{ content:"Develo|";}
+    21%{ content:"Develop|";}
+    22%{ content:"Develope|";}
+    23%{ content:"Developer|";}
+    24%{ content:"Develope|";}
+    25%{ content:"Develop|";}
+    26%{ content:"Develo|";}
+    27%{ content:"Devel|";}
+    28%{ content:"Deve|";}
+    29%{ content:"Dev|";}
+    30%{ content:"De|";}
+    31%{ content:"D|";}
+    32%{ content:"|";}
+    33%{ content:"|";}
+    34%{ content:"|";}
+    35%{ content:"|";}
+    36%{ content:"|";}
+    37%{ content:"F|";}
+    38%{ content:"Fr|";}
+    39%{ content:"Fre|";}
+    40%{ content:"Free|";}
+    41%{ content:"Freel|";}
+    42%{ content:"Freela|";}
+    43%{ content:"Freelan|";}
+    44%{ content:"Freelanc|";}
+    45%{ content:"Freelance|";}
+    46%{ content:"Freelancer|";}
+    47%{ content:"Freelancer";}
+    48%{ content:"Freelancer|";}
+    49%{ content:"Freelancer";}
+    50%{ content:"Freelancer|";}
+    51%{ content:"Freelance|";}
+    52%{ content:"Freelanc|";}
+    53%{ content:"Freelan|";}
+    54%{ content:"Freela|";}
+    55%{ content:"Freel|";}
+    56%{ content:"Free|";}
+    57%{ content:"Fre|";}
+    58%{ content:"Fr|";}
+    59%{ content:"F|";}
+    60%{ content:"|";}
+    61%{ content:"|";}
+    62%{ content:"|";}
+    63%{ content:"|";}
+    64%{ content:"p|";}
+    65%{ content:"ph|";}
+    66%{ content:"pho|";}
+    67%{ content:"phot|";}
+    68%{ content:"photo|";}
+    69%{ content:"photog|";}
+    70%{ content:"photogr|";}
+    71%{ content:"photogra|";}
+    72%{ content:"photograp|";}
+    73%{ content:"photograph|";}
+    74%{ content:"photographe|";}
+    75%{ content:"photographer|";}
+    76%{ content:"photographer";}
+    77%{ content:"photographer|";}
+    78%{ content:"photographer";}
+    79%{ content:"photographer|";}
+    80%{ content:"photographe|";}
+    81%{ content:"photograph|";}
+    82%{ content:"photograp|";}
+    83%{ content:"photogra|";}
+    84%{ content:"photogr|";}
+    85%{ content:"photo|";}
+    86%{ content:"phot|";}
+    87%{ content:"pho|";}
+    88%{ content:"ph|";}
+    89%{ content:"p|";}
+    90%{ content:"|";}
+    91%{ content:"|";}
+    92%{ content:"|";}
+    93%{ content:"|";}
+    94%{ content:"|";}
+    95%{ content:"|";}
+    96%{ content:"|";}
+    97%{ content:"|";}
+    98%{ content:"|";}
+    99%{ content:"|";}
+    100%{ content:"|";}
+}
+/* ----------------- */
+section .col-lg-5 h5{
+    position: relative;
+}
+section .col-lg-5 h5::after{
+    content: " ";
+    position: absolute;
+    width: 6.25rem;
+    height: .1875rem;
+    bottom: 0 ;
+    left: 0;
+    background-color: var(--main-color);
+}
+
+section .about-content{
+    font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.sections-title h3{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 3rem;
+}
+.sections-title .line-div span{   
+    width: 3.125rem;
+    height: .3125rem;
+    background-color: var(--main-color);
+}
+/*  */
+.services .container .row .card-hav h2{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.services .container .row .card-hav .icon-hav{
+    transition: 1s;
+}
+.services .container .row .card-hav:hover .icon-hav{
+    border: 5px solid #CDE1F8;
+    background-color: var(--main-color);
+    + i{
+        color:white;
+    }
+}
+/*  */
+.counter-sec {
+    background-image: linear-gradient(#0077ffab ,#0077ffab),url(../images/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-attachment: fixed;
+}
+
+
+/*  */
+.changed-cards ,.contact{
+    background-image: linear-gradient(#0077ffab ,#0077ffab),url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* -------blog part------- */
+.blog .card-body a{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: var(--main-font);
+    transition: 1s;
+}
+.blog .card-footer span{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--main-font);
+    transition: 1s;
+}
+.blog .card-footer span:hover ,.blog .card-body a:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+/* ---------------------- */
+.contact .col-lg-6 h5{
+    position: relative;
+}
+.contact .col-lg-6 h5::after{
+    content: " ";
+    position: absolute;
+    width: 6.25rem;
+    height: .1875rem;
+    bottom: 0 ;
+    left: 0;
+    background-color: var(--main-color);
+}
+.counter-sec .container .col-lg-3 .par1 ,
+.counter-sec .container .col-lg-3 .par2 ,
+.counter-sec .container .col-lg-3 .par3 ,
+.counter-sec .container .col-lg-3 .par4 {
+    font-family: var(--main-font);
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.counter-sec .container .col-lg-3 .par1:after{
+    content: "450";
+    animation: counter 1s;
+}
+@keyframes counter {
+    0%{content: "0";};
+    15%{content: "30";}
+    25%{content: "78";}
+    35%{content: "132";}
+    45%{content: "166";}
+    55%{content: "189";}
+    68%{content: "220";}
+    70%{content: "260";}
+    85%{content: "298";}
+    90%{content: "350";}
+    100%{content: "450";}
+}
+.counter-sec .container .col-lg-3 .par2:after{
+    content: "25";
+    animation: counter2 0.5s;
+}
+@keyframes counter2 {
+    0%{content: "0";};
+    15%{content: "3";}
+    25%{content: "8";}
+    55%{content: "12";}
+    55%{content: "19";}
+    85%{content: "22";}
+    100%{content: "25";}
+}
+.counter-sec .container .col-lg-3 .par3:after{
+    content: "550";
+    animation: counter3 1s;
+}
+@keyframes counter3 {
+    0%{content: "0";};
+    15%{content: "30";}
+    25%{content: "78";}
+    35%{content: "132";}
+    45%{content: "166";}
+    55%{content: "189";}
+    68%{content: "220";}
+    70%{content: "260";}
+    85%{content: "298";}
+    90%{content: "350";}
+    100%{content: "550";}
+}
+.counter-sec .container .col-lg-3 .par4:after{
+    content: "48";
+    animation: counter4 1s;
+}
+@keyframes counter4 {
+    0%{content: "0";};
+    15%{content: "9";}
+    25%{content: "10";}
+    35%{content: "15";}
+    55%{content: "25";}
+    68%{content: "30";}
+    70%{content: "35";}
+    85%{content: "40";}
+    100%{content: "48";}
+}
+/* ---------------------- */
+
+.portfolio .container .card .card-img{
+    overflow: hidden;
+}
+.portfolio .container .card .card-body h2{
+    font-family: var(--main-font);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.portfolio .container .card .card-body .row .col-lg-8 .sp1{
+    font-family: var(--main-font);
+    font-size: .8rem;
+    font-weight: 400;
+    color: var(--main-color);
+}
+.portfolio .container .card .card-body .row .col-lg-8 .sp2{
+    font-family: var(--main-font);
+    font-size: .8rem;
+    font-weight: 400;
+}
+.portfolio .container .card .card-body .row .col-lg-4 .ancors{
+    border-color: var(--main-color);
+}
+
+.portfolio .container .card .card-img img{
+    transition: 1s;
+    
+}
+.portfolio .container .card .card-img:hover img{
+    transform: scale(1.2 ,1.2);
+}
+/* ----------------------- */
+footer{
+    background-color: #0062D3;
+}
