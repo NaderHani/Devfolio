@@ -227,87 +227,9 @@ section .about-content{
     cursor: pointer;
 }
 /* ---------------------- */
-.contact .col-lg-6 h5{
-    position: relative;
-}
-.contact .col-lg-6 h5::after{
-    content: " ";
-    position: absolute;
-    width: 6.25rem;
-    height: .1875rem;
-    bottom: 0 ;
-    left: 0;
-    background-color: var(--main-color);
-}
-.counter-sec .container .col-lg-3 .par1 ,
-.counter-sec .container .col-lg-3 .par2 ,
-.counter-sec .container .col-lg-3 .par3 ,
-.counter-sec .container .col-lg-3 .par4 {
-    font-family: var(--main-font);
-    font-weight: 300;
-    font-size: 2.5rem;
-}
-.counter-sec .container .col-lg-3 .par1:after{
-    content: "450";
-    animation: counter 1s;
-}
-@keyframes counter {
-    0%{content: "0";};
-    15%{content: "30";}
-    25%{content: "78";}
-    35%{content: "132";}
-    45%{content: "166";}
-    55%{content: "189";}
-    68%{content: "220";}
-    70%{content: "260";}
-    85%{content: "298";}
-    90%{content: "350";}
-    100%{content: "450";}
-}
-.counter-sec .container .col-lg-3 .par2:after{
-    content: "25";
-    animation: counter2 0.5s;
-}
-@keyframes counter2 {
-    0%{content: "0";};
-    15%{content: "3";}
-    25%{content: "8";}
-    55%{content: "12";}
-    55%{content: "19";}
-    85%{content: "22";}
-    100%{content: "25";}
-}
-.counter-sec .container .col-lg-3 .par3:after{
-    content: "550";
-    animation: counter3 1s;
-}
-@keyframes counter3 {
-    0%{content: "0";};
-    15%{content: "30";}
-    25%{content: "78";}
-    35%{content: "132";}
-    45%{content: "166";}
-    55%{content: "189";}
-    68%{content: "220";}
-    70%{content: "260";}
-    85%{content: "298";}
-    90%{content: "350";}
-    100%{content: "550";}
-}
-.counter-sec .container .col-lg-3 .par4:after{
-    content: "48";
-    animation: counter4 1s;
-}
-@keyframes counter4 {
-    0%{content: "0";};
-    15%{content: "9";}
-    25%{content: "10";}
-    35%{content: "15";}
-    55%{content: "25";}
-    68%{content: "30";}
-    70%{content: "35";}
-    85%{content: "40";}
-    100%{content: "48";}
+.counters{
+    border: 10px solid #CDE1F8 ;
+    border-radius: 50%;
 }
 /* ---------------------- */
 
